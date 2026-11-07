@@ -1,0 +1,39 @@
+name: Feedback or problem
+description: Tell us what works, what doesn't, or what confused you.
+title: "[Feedback] "
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - A letter or word is recognised wrongly
+        - Typing into an app doesn't work
+        - Installing or setting up was confusing
+        - Something else isn't working
+        - An idea or general opinion
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: For wrong letters, say what you wrote and what you got, for example "wrote ஹு, got ஹீ".
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: Which app were you writing in?
+      placeholder: Tamilpad, Notes, Mail, Safari…
+  - type: input
+    id: mac
+    attributes:
+      label: Your Mac and macOS version
+      description: Apple menu → About This Mac.
+      placeholder: MacBook Air M2, macOS 15.3
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Press ⇧⌘4 to take one, then drag it here.
