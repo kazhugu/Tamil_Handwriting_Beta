@@ -16,13 +16,21 @@ This is a free test version for friends. **It works until 31 December 2026.** Pl
 
 1. Download **TamilHandwriting-0.8.1-test.dmg** from the [latest release](https://github.com/kazhugu/Tamil_Handwriting_Beta/releases/latest).
 2. Open it, and drag **Tamil Handwriting** onto the **Applications** folder.
-3. Open **Tamil Handwriting** from Applications. macOS warns that it can't check the app, because it isn't registered with Apple yet. Allow it once:
-   - **macOS 15 or later:** click **Done**. Open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to Tamil Handwriting. Confirm with your password or Touch ID.
-   - **macOS 14:** right-click the app, choose **Open**, then click **Open** again.
+3. **Allow the app once.** It isn't registered with Apple yet, so macOS blocks it the first time. This takes a few steps, and the first message has no button to open the app; that's expected.
+
+   **macOS 15 Sequoia or later:**
+   1. Open **Tamil Handwriting** from Applications. A message says Apple could not verify it. Click **Done**, not Move to Trash.
+   2. Open **System Settings → Privacy & Security** and scroll right down to the **Security** section.
+   3. You'll see that Tamil Handwriting was blocked. Click **Open Anyway** next to it, and enter your password or use Touch ID. The button only appears after step 1, and only for about an hour, so if it isn't there, do step 1 again.
+   4. A second message appears. Click **Open Anyway** again. If nothing happens, open the app from Applications once more.
+
+   **macOS 14 Sonoma:** right-click the app in Applications, choose **Open**, then click **Open** in the message.
+
+   You only do this once. Still stuck? See [if macOS won't open the app](USER_GUIDE.md#if-macos-wont-open-the-app).
 4. A welcome window appears, and **த** appears in the menu bar. Click **Start Writing** to try it in Tamilpad.
 5. To write in other apps, click **Allow Typing into Other Apps…** and switch on **Tamil Handwriting** in the Accessibility list. You only do this once.
 
-The full steps, with pictures, are in the [user guide](USER_GUIDE.md).
+Everything else is in the [user guide](USER_GUIDE.md).
 
 ## Your privacy
 

@@ -111,7 +111,7 @@ Some letters are hard to tell apart from their shape, for example **ஷு** and
 
 | Problem | Fix |
 |---|---|
-| macOS says the app can't be opened | Allow it once in System Settings → Privacy & Security → **Open Anyway** (see [Install](README.md#install)). |
+| macOS says the app can't be opened | Allow it once in System Settings → Privacy & Security → **Open Anyway** (see [Install](README.md#install) and [below](#if-macos-wont-open-the-app)). |
 | Nothing is drawn when I write | Use a light touch without clicking, and make sure the pad is in front: press ⌃⌥T. |
 | Letters are copied instead of typed | Allow typing: **த → Allow Typing into Other Apps…** |
 | Typing stopped working after an update | In System Settings → Privacy & Security → Accessibility, remove Tamil Handwriting with **–**, then add it again. |
@@ -120,6 +120,21 @@ Some letters are hard to tell apart from their shape, for example **ஷு** and
 | ⌃⌥T does nothing | Check that **த** is in the menu bar. If not, open the app from Applications. |
 
 Something else? Please [send feedback](README.md#feedback).
+
+### If macOS won't open the app
+
+The usual reason is that the **Open Anyway** button has gone: it appears in System Settings → Privacy & Security only after you've tried to open the app, and only for about an hour. Open the app from Applications again, click **Done**, then go straight to System Settings.
+
+If that still doesn't work, you can tell macOS you trust this download using Terminal. Only do this for apps you trust, such as this one from a friend:
+
+1. Open **Terminal** (in Applications → Utilities).
+2. Paste this line and press Return:
+
+   ```
+   xattr -dr com.apple.quarantine "/Applications/Tamil Handwriting.app"
+   ```
+
+3. Open Tamil Handwriting from Applications as usual.
 
 ## Uninstall
 
