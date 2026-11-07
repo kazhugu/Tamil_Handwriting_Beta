@@ -1,6 +1,6 @@
 # Tamil Handwriting user guide
 
-Test version 0.8.0, working until 31 December 2026.
+Test version 0.8.1, working until 31 December 2026.
 
 - [Install and first start](#install-and-first-start)
 - [Writing](#writing)

@@ -14,7 +14,7 @@ This is a free test version for friends. **It works until 31 December 2026.** Pl
 
 ## Install
 
-1. Download **TamilHandwriting-0.8.0-test.dmg** from the [latest release](https://github.com/kazhugu/Tamil_Handwriting_Beta/releases/latest).
+1. Download **TamilHandwriting-0.8.1-test.dmg** from the [latest release](https://github.com/kazhugu/Tamil_Handwriting_Beta/releases/latest).
 2. Open it, and drag **Tamil Handwriting** onto the **Applications** folder.
 3. Open **Tamil Handwriting** from Applications. macOS warns that it can't check the app, because it isn't registered with Apple yet. Allow it once:
    - **macOS 15 or later:** click **Done**. Open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to Tamil Handwriting. Confirm with your password or Touch ID.
@@ -30,8 +30,10 @@ To recognise your writing, the app sends the **shape of your strokes** to Google
 
 ## Feedback
 
-- **With a GitHub account:** [open a feedback form](https://github.com/kazhugu/Tamil_Handwriting_Beta/issues/new/choose). The app's **த → Send Feedback…** menu item opens the same page.
-- **Without one:** use the [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfVVl_TINH5-7tOrDqudI4klDLuxmiZsBYwLp0EUPymSBA5hA/viewform) instead.
+The app's **த → Send Feedback…** menu item brings you here.
+
+- **With a GitHub account:** [open a feedback form](https://github.com/kazhugu/Tamil_Handwriting_Beta/issues/new/choose). GitHub asks you to sign in first.
+- **Without one:** use the [Google feedback form](https://docs.google.com/forms/d/e/1FAIpQLSfVVl_TINH5-7tOrDqudI4klDLuxmiZsBYwLp0EUPymSBA5hA/viewform) instead.
 
 Useful things to tell us: letters it often gets wrong, apps where typing doesn't work, anything confusing during setup, and whether you'd use it every day.
 
